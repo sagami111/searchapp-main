@@ -1,0 +1,50 @@
+input[type="text"] {
+  font-size: 18px;
+}
+
+#myInput {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 50%; /* 幅を指定 */
+  margin-top: 20px;
+}
+
+#myDiv {
+  text-align: center;
+  display: block;
+  justify-content: center;
+}
+
+#myImage {
+  max-width: 100%;
+  height: auto;
+  display: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#showButton {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#hideButton {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .img-fluid {
+    width: 85%;
+    height: auto;
+  }
+}
+
+/* PC画面の場合 */
+@media screen and (min-width: 768px) {
+  .img-fluid {
+    width: 30%;
+    height: auto;
+  }
+}
